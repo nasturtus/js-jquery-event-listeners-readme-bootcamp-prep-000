@@ -3,7 +3,7 @@
 $(document).ready(function(){
   
 getIt();
-  
+frameIt();  
 });
 
 function getIt() {
@@ -16,5 +16,9 @@ function frameIt() {
   $('img').on('load', function() {
     $(this).addClass('tasty')
   })
+}
+
+function submitIt() {
+  
 }
 
