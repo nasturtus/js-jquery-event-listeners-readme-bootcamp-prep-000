@@ -19,6 +19,10 @@ function frameIt() {
 }
 
 function submitIt() {
-  
+  $(document).on('keydown', function(key){
+    if(key === ) {
+      alert('You pressed G')
+    }
+  })
 }
 
