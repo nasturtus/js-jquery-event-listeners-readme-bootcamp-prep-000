@@ -4,6 +4,7 @@ $(document).ready(function(){
   
 getIt();
 frameIt();  
+submitIt();
 });
 
 function getIt() {
